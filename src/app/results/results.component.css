@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.city-and-icon {
+  display: flex;
+  align-items: center;
+}

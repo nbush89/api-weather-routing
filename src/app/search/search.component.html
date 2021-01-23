@@ -1,0 +1,15 @@
+<app-header></app-header>
+<div class="container">
+  <form #addForm="ngForm" (ngSubmit)="searchCity(addForm)">
+    <label for="city">City</label>
+    <input
+      type="text"
+      id="city"
+      name="city"
+      placeholder="Enter your city"
+      required
+      ngModel
+    />
+    <button>Search</button>
+  </form>
+</div>
